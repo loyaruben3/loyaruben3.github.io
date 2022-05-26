@@ -2643,17 +2643,18 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100%;
+				padding-left: 25%;
+				width: 75%;
 			}
 
-		@media screen and (max-width: 1920px) {
+		/* @media screen and (min-width: 1920px) {
 		
 			.image.main img {
 				padding-left: 25%;
 				width: 75%;
 			}
 			
-		}
+		} */
 
 		@media screen and (max-width: 736px) {
 
@@ -2663,6 +2664,11 @@ input, select, textarea {
 
 			.image.main {
 				margin: 2rem 0;
+			}
+
+			.image.main img {
+				padding-left: 0;
+				width: 100%
 			}
 
 		}
